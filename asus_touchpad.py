@@ -253,6 +253,7 @@ while True:
                 numlock = not numlock
                 if numlock:
                     activate_numlock(brightness)
+                    brightness = change_brightness(brightness)
                 else:
                     deactivate_numlock()
                 continue
